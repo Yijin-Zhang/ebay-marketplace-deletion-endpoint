@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eBay Marketplace Account Deletion Endpoint</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        .status {
+            background: #d4edda;
+            color: #155724;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #28a745;
+        }
+        .endpoint {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 6px;
+            font-family: 'Monaco', 'Menlo', monospace;
+            margin: 15px 0;
+            border: 1px solid #e9ecef;
+            overflow-x: auto;
+        }
+        .btn {
+            background: #007bff;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 6px;
+            display: inline-block;
+            margin: 8px 8px 8px 0;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #0056b3;
+            color: white;
+        }
+        .btn-success {
+            background: #28a745;
+        }
+        .btn-success:hover {
+            background: #1e7e34;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 10px;
+        }
+        .highlight {
+            background: #fff3cd;
+            padding: 15px;
+            border-radius: 6px;
+            border-left: 4px solid #ffc107;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 eBay Marketplace Account Deletion Endpoint</h1>
+        
+        <div class="status">
+            ✅ <strong>Status:</strong> Active and Ready for eBay Verification
+        </div>
+        
+        <h2>📋 Service Information</h2>
+        <ul>
+            <li><strong>Service:</strong> eBay Marketplace Account Deletion Notification Handler</li>
+            <li><strong>Version:</strong> 1.0.0</li>
+            <li><strong>Platform:</strong> Vercel Serverless Functions</li>
+            <li><strong>Runtime:</strong> Node.js 18.x</li>
+        </ul>
+        
+        <h2>🔗 API Endpoints</h2>
+        
+        <h3>Health Check</h3>
+        <div class="endpoint">GET /api/health</div>
+        <a href="/api/health" class="btn btn-success">✓ Test Health Check</a>
+        
+        <h3>Marketplace Deletion (Main Endpoint)</h3>
+        <div class="endpoint">GET /api/marketplace-deletion?challenge_code=YOUR_CODE</div>
+        <div class="endpoint">POST /api/marketplace-deletion</div>
+        <a href="/api/marketplace-deletion?challenge_code=test123" class="btn">🧪 Test Challenge Verification</a>
+        
+        <div class="highlight">
+            <h2>📋 For eBay Developer Portal</h2>
+            <p><strong>Notification Endpoint URL:</strong></p>
+            <div class="endpoint" id="endpoint-url">Loading...</div>
+            
+            <p><strong>Verification Token:</strong></p>
+            <div class="endpoint">ebay_marketplace_deletion_token_2025_secure_32_chars_min</div>
+        </div>
+        
+        <h2>✅ Compliance Features</h2>
+        <ul>
+            <li>✅ HTTPS Support (Automatic SSL)</li>
+            <li>✅ CORS Enabled for Cross-Origin Requests</li>
+            <li>✅ SHA-256 Challenge Verification</li>
+            <li>✅ JSON Response Format</li>
+            <li>✅ Comprehensive Error Handling</li>
+            <li>✅ Input Validation & Security</li>
+            <li>✅ GET & POST Method Support</li>
+            <li>✅ 56-Character Verification Token</li>
+        </ul>
+        
+        <h2>🔧 Technical Status</h2>
+        <p>This endpoint is fully configured and ready to receive eBay marketplace account deletion notifications. All eBay requirements have been implemented and tested.</p>
+        
+        <div style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #eee; text-align: center; color: #666;">
+            <small>Deployed on Vercel • Powered by Node.js • Ready for Production</small>
+        </div>
+    </div>
+    
+    <script>
+        // Set the current URL for the endpoint
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('endpoint-url').textContent = 
+                window.location.origin + '/api/marketplace-deletion';
+        });
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,13 @@
+{
+  "name": "ebay-marketplace-deletion",
+  "version": "1.0.0",
+  "description": "eBay Marketplace Account Deletion Notification Endpoint",
+  "type": "module",
+  "engines": {
+    "node": "18.x"
+  },
+  "keywords": ["ebay", "marketplace", "account-deletion", "webhook", "serverless"],
+  "author": "Your Name",
+  "license": "MIT"
+}
+
