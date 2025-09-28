@@ -4,7 +4,7 @@
 import crypto from 'crypto';
 
 // Configuration
-const VERIFICATION_TOKEN = 'ebay_marketplace_deletion_token_2025_secure_32_chars_min';
+const VERIFICATION_TOKEN = 'ebay_marketplace_deletion_token_2026_secure_32_chars_min';
 
 export default function handler(req, res) {
   // Set CORS headers
